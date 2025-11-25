@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        CLUSTER = "weather-cluster"
+        CLUSTER = "kind-dev"
     }
     stages {
         stage('Checkout') {
